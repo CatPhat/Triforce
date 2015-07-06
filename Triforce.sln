@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD5908F3-A134-47BC-B057-87F21770481F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14D9FE0B-0A6D-4FA0-80EE-508BB0A40561}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Triforce.Web", "src\Triforce.Web\Triforce.Web.xproj", "{C3049527-4571-4645-9B60-1C00BE020531}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Triforce.Services", "src\Triforce.Services\Triforce.Services.xproj", "{BADFFF75-48BB-4902-8975-12D1BEF0EDEB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Triforce.Domain", "src\Triforce.Domain\Triforce.Domain.xproj", "{840C82A9-5B91-49BF-AB29-4F3B3127A73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3049527-4571-4645-9B60-1C00BE020531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3049527-4571-4645-9B60-1C00BE020531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3049527-4571-4645-9B60-1C00BE020531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3049527-4571-4645-9B60-1C00BE020531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADFFF75-48BB-4902-8975-12D1BEF0EDEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADFFF75-48BB-4902-8975-12D1BEF0EDEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADFFF75-48BB-4902-8975-12D1BEF0EDEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADFFF75-48BB-4902-8975-12D1BEF0EDEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840C82A9-5B91-49BF-AB29-4F3B3127A73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840C82A9-5B91-49BF-AB29-4F3B3127A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840C82A9-5B91-49BF-AB29-4F3B3127A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840C82A9-5B91-49BF-AB29-4F3B3127A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3049527-4571-4645-9B60-1C00BE020531} = {DD5908F3-A134-47BC-B057-87F21770481F}
+		{BADFFF75-48BB-4902-8975-12D1BEF0EDEB} = {DD5908F3-A134-47BC-B057-87F21770481F}
+		{840C82A9-5B91-49BF-AB29-4F3B3127A73D} = {DD5908F3-A134-47BC-B057-87F21770481F}
+	EndGlobalSection
+EndGlobal
